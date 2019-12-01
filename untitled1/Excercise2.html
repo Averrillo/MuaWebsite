@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Table Example</title>
+</head>
+<body>
+<div class="container">
+    <table class="table" border="1">
+        <caption>Invoice</caption>
+        <tr>
+            <th colspan="3" ><strong>Invoice #123456789</strong> </th>
+            <th colspan="1"><strong>September 2019</strong> </th>
+        </tr>
+
+        <tr>
+            <td colspan = "2">
+                <strong>Pay to:</strong> <br>Acme Billing Co.<br>123 Main St.<br>Cityville,NA 12345
+            </td>
+            <td colspan ="2">
+                <strong>Customer:</strong> <br>John Smith<br>321 Willow Way<br>Southeast Northwestershire, MA 54321
+            </td>
+        </tr>
+
+        <tr>
+            <td><strong>Name/Description </strong></td>
+            <td><strong>Qty.</strong></td>
+            <td><strong>@ Rate</strong></td>
+            <td><strong>Cost</strong></td>
+        </tr>
+
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+
+        <tr>
+            <td>Staples(box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+
+        <tr>
+            <td colspan ="3"><strong>Subtotal</strong></td>
+            <td colspan ="1">110.00</td>
+        </tr>
+        <tr>
+            <td colspan ="2"><strong>Tax</strong></td>
+            <td colspan ="1">8%</td>
+            <td colspan ="2">8.80</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
